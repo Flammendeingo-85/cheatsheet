@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #333333;
+  color: #ffae00;
+}
+
+table {
+  margin: 0 auto;
+  width: 1140px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+th {
+  background-color: #ffae00;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 700;
+  color: #333333;
+  background-color: #ffae00;
+}
+
+td,
+tr,
+th {
+  border: 2px solid #ffae00;
+  border-spacing: 2px;
+}
+
+.tag {
+  font-family: monospace;
+  background-color: #ffae00;
+  color: #333333;
+}
